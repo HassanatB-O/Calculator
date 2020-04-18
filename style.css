@@ -1,0 +1,82 @@
+body
+{
+    text-align: center;
+    margin-top: 7%;
+    background-color: burlywood;
+}
+h1
+{
+    font-size: 40px;
+}
+.button
+{
+    margin-top: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.calculator
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#button1
+{    
+    background-color: red;
+    width: 210px;
+}
+#button
+{
+    background-color: green;
+}
+.textview
+{
+    width: 420px;
+    margin: 5px;
+    margin-right: 30px;
+    padding: 5px;
+    font-size: 25px;
+}
+footer
+{
+    margin-top: 30%;
+}
+@media only screen and (max-width: 480px)
+{
+    .calculator
+    {
+        width: 100%;
+        margin: auto;
+    }
+    .button
+    {
+        width: 70px;
+    }
+    #button1
+    {
+        width: 160px;
+    }
+    .textview
+    {
+        width: 290px;
+    }
+    footer
+    {
+        margin-top: 130%;
+    }
+}
+@media only screen and (max-width: 900px)
+{
+    footer
+    {
+        margin-top: 440px;
+        text-align: center;
+    }
+}
